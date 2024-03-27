@@ -9,14 +9,18 @@
 </head>
 
 <body>
+    <form name="form_main">
+        <h1>cronometro</h1>
+        <div class="nunber">
+          <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+        </div>
+      
+        <br />
     
-    <h1 class="titulo">0</h1>
-
-    <main>
-        <button class="botao-stop" onclick="stop()">stop</button>
-        <button class="botao-start" onclick="start()">start</button>
-        <button class="botao-zerar" onclick="zerar()"> zerar</button>
-    </main>
+        <button type="button" name="start"><img src="./assets/pixelcut-export (1).png"></button>
+        <button type="button" name="pause"><img src="./assets/botao-de-pausa.png"></button>
+        <button type="button" name="reset"><img src="./assets/botao-de-reset.png"></button>
+      </form>
 </body>
 <script src="./script.js"></script>
 
